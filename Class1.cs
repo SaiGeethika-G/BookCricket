@@ -42,7 +42,7 @@ namespace BookCricket
                 Console.WriteLine("Game Over! The total score is {0}", totalRuns);
             } 
         }
-        int runsScored()
+        private int runsScored()
         {
             int totalPages = 500;
             Random randObj = new Random();
